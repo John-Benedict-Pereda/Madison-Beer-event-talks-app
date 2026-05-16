@@ -1,0 +1,145 @@
+:root {
+    --pink-soft: #ffc0cb;
+    --pink-mid: #ffb6c1;
+    --pink-deep: #ff69b4;
+    --blue-light: #add8e6;
+    --blue-mid: #87ceeb;
+    --white: #ffffff;
+    --text-dark: #333333;
+    --bg-light: #fdf6f9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, var(--pink-soft), var(--blue-light));
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--white);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--pink-deep);
+}
+
+header p {
+    font-style: italic;
+    color: #555;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+#categorySearch {
+    width: 80%;
+    padding: 12px 20px;
+    border: 2px solid var(--white);
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: border-color 0.3s ease;
+}
+
+#categorySearch:focus {
+    border-color: var(--pink-deep);
+}
+
+.schedule-list {
+    margin-top: 30px;
+}
+
+.talk-card {
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-left: 8px solid var(--blue-mid);
+    transition: transform 0.2s ease;
+}
+
+.talk-card:hover {
+    transform: translateY(-2px);
+}
+
+.talk-card.break {
+    border-left-color: var(--pink-mid);
+    background-color: #fff9fb;
+    font-style: italic;
+}
+
+.talk-time {
+    font-weight: bold;
+    color: var(--pink-deep);
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.talk-title {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    color: #444;
+}
+
+.talk-speakers {
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.talk-description {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    background-color: var(--blue-light);
+    color: #3a7a91;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    #categorySearch {
+        width: 100%;
+    }
+}

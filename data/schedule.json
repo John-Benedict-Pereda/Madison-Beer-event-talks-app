@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "The Agile Axolotl: Adaptive Planning",
+    "speakers": ["Alice Axon", "Bob Builder"],
+    "categories": ["Agile", "Management", "Planning"],
+    "startTime": "10:00 AM",
+    "endTime": "11:00 AM",
+    "description": "Learn how the regenerative powers of the Axolotl can inspire your project management. We explore adaptive planning techniques that keep teams resilient in the face of changing requirements."
+  },
+  {
+    "id": 2,
+    "title": "The Busy Bee: Parallel Processing in Node.js",
+    "speakers": ["Charlie Hive"],
+    "categories": ["Node.js", "Performance", "Backend"],
+    "startTime": "11:10 AM",
+    "endTime": "12:10 PM",
+    "description": "Discover how to orchestrate worker threads and asynchronous tasks as efficiently as a beehive. This talk dives deep into the event loop and parallel execution strategies."
+  },
+  {
+    "id": 3,
+    "title": "The Stealthy Snow Leopard: Cybersecurity Best Practices",
+    "speakers": ["Diana Prowl", "Ethan Guard"],
+    "categories": ["Security", "Infrastructure"],
+    "startTime": "12:20 PM",
+    "endTime": "1:20 PM",
+    "description": "Like a snow leopard in the mountains, your security should be invisible yet omnipresent. We cover modern threat detection and zero-trust architecture."
+  },
+  {
+    "id": 4,
+    "title": "Lunch Break",
+    "speakers": [],
+    "categories": ["Social", "Food"],
+    "startTime": "1:20 PM",
+    "endTime": "2:20 PM",
+    "description": "Take a break, refuel, and network with fellow attendees.",
+    "isBreak": true
+  },
+  {
+    "id": 5,
+    "title": "The Wise Owl: Leveraging AI for Logic",
+    "speakers": ["Fiona Feather"],
+    "categories": ["AI", "Logic", "Data Science"],
+    "startTime": "2:20 PM",
+    "endTime": "3:20 PM",
+    "description": "Harness the wisdom of the owl to build smarter applications. We discuss integrating large language models and neural networks into existing business logic."
+  },
+  {
+    "id": 6,
+    "title": "The Migrating Monarch: Database Scaling Strategies",
+    "speakers": ["George Wing", "Hannah Flight"],
+    "categories": ["Databases", "Scaling", "Cloud"],
+    "startTime": "3:30 PM",
+    "endTime": "4:30 PM",
+    "description": "Scaling databases shouldn't be a struggle. Follow the migration patterns of the Monarch butterfly to transition from monolithic databases to distributed clusters."
+  },
+  {
+    "id": 7,
+    "title": "The Loyal Labrador: Building User Trust",
+    "speakers": ["Ian Friend"],
+    "categories": ["UX", "Product", "Trust"],
+    "startTime": "4:40 PM",
+    "endTime": "5:40 PM",
+    "description": "User trust is the foundation of any successful product. We explore how consistent design and transparent data practices build long-term loyalty."
+  }
+]
